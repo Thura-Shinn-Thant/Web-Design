@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<title>SideBar</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="TRST_test7.css">
+	<style type="text/css">
+		.backdiv {
+			width: 200px;
+			height: 100px;
+			background-color: blue;
+			border: 1px solid red;
+			padding: 10px;
+			background-clip: content-box;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="wrapper">
+		<div class="sidebar">
+			<div class="profile">
+				<img src="./image/OliviaRodrigo.jpg" title="profile">
+				<!--<div class="imgdiv">
+                    <img src="./image/OliviaRodrigo.jpg" alt="">
+				</div>-->
+				<h1>Olivia Rodrigo</h1>
+				<p>Singer</p>
+			</div>
+			<ul>
+				<li>
+					<a href="sidebar.html">
+						<span class="icon">
+							<i class="fa fa-graduation-cap"></i>
+						</span>
+						<span class="item">Home</span>
+					</a>
+				</li>
+				<li>
+					<a href="dashboard.html">
+						<span class="icon"><i class="fa fa-fax"></i></span>
+						<span class="item">My Dashboard</span>
+					</a>
+				</li>
+				<li>
+					<a href="">
+						<span class="icon"><i class="fa fa-address-book"></i></span>
+						<span class="item">People</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+						<span class="icon">
+							<i class="fa fa-check"></i>
+						</span>
+						<span class="item">Performance</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="">
+						<span class="icon"><i class="fa fa-address-book"></i></span>
+						<span class="item">Development</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="report.html">
+						<span class="icon"><i class="fa fa-address-book"></i></span>
+						<span class="item">Report</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="signin.html">
+						<span class="icon"><i class="fa fa-address-book"></i></span>
+						<span class="item">Sign In</span>
+					</a>
+				</li>
+
+				<li>
+					<a href="setting.html">
+						<span class="icon"><i class="fa fa-address-book"></i></span>
+						<span class="item">Setting</span>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+	<div class="main">
+		<div class="main-container">
+			<form action="./home.html" target="_blank">
+				<table>
+					<tr>
+						<td class="colum">First name:</td>
+						<td class="colum1"><input type="text" placeholder="Enter your first name"></td>
+					</tr>
+					<tr>
+						<td class="colum">Last Name:</td>
+						<td class="colum1"><input type="text" placeholder="Enter your last name"></td>
+					</tr>
+					<tr>
+						<td class="colum">Email:</td>
+						<td class="colum1"><input type="email" placeholder="it should contain @."></td>
+					</tr>
+					<tr>
+						<td class="colum">Mobile:</td>
+						<td class="colum1"><input type="text" placeholder="Only 10 digits are allowed"></td>
+					</tr>
+					<tr>
+						<td class="colum">Gender:</td>
+						<td class="colum1">
+							<input type="radio" name="gender" placeholder="male"> Male <input type="radio" name="gender"
+								value="female">Female
+						</td>
+					</tr>
+					<tr>
+						<td class="colum">D.O.B:</td>
+						<td class="colum1"><input type="date" id="birthday" name="birthday"></td>
+					</tr>
+					<tr>
+						<td class="colum">Address:</td>
+						<td class="colum1"><textarea name="" id="" cols="48" rows="4.5"></textarea></td>
+					</tr>
+					<tr>
+						<td class="colum">City:</td>
+						<td class="colum1"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="colum">Area PIN:</td>
+						<td class="colum1"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="colum">State:</td>
+						<td class="colum1"><input type="text"></td>
+					</tr>
+					<tr>
+						<td class="colum">Qualification:</td>
+						<td class="colum1">
+							<select name="" id="">
+								<option value="Database">Select Qualification:</option>
+								<option value="AI">AI</option>
+								<option value="WDD">WDD</option>
+								<option value="Laravel">Laravel</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td class="colum">Specialization:</td>
+						<td class="colum1"><input type="checkbox">Computer Science<br><input type="checkbox">information
+							Technology<br><input type="checkbox">Computer architecture <br><input type="checkbox">Tele
+							Communication</td>
+					</tr>
+					<tr>
+						<td class="colum">Password:</td>
+						<td class="colum1"><input type="text" value="Type Your Password Correctly"></td>
+					</tr>
+					<td> <button type="submit" id="register">Register</button></td>
+				</table>
+			</form>
+		</div>
+	</div>
+
+</body>
+
+</html>
